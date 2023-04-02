@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>welcome to tralvel form</title>
+    <link rel="stylesheet" href="./index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <img class="bg" src="./bg.jpg" alt="IIT">
+    <div class="container">
+        <h3>welcome to iit khadgpur</h3>
+        <p>enter you details to confirm your parcipation in trip</p>
+
+        <form action="index.php" method="post">
+            <input type="text" id="name" placeholder="Name" >
+            <input type="text" id="age" placeholder="age">
+            <input type="text" id="gender" placeholder="gender">
+            <input type="text" id="city" placeholder="city">
+            <input type="text" id="email" placeholder="email">
+            <textarea name="dexc" id="desc" cols="30" rows="10" placeholder="enter detail desc about yourself"></textarea>
+      <button onclick="reset()">reset</button>
+            <button onclick="submit()" >submit</button>
+        </form>
+    </div>
+    
+</body>
+<script src="./index.js" ></script>
+</html>

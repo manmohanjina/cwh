@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.container{
+    background-color: transparent;
+    max-width: 80%;
+    padding: 2%;
+    margin: 2%;
+    margin: auto;
+}
+.container>h3,p{
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+    width: 50%;
+    margin: auto;
+    gap: 10px;
+   
+}
+form>input,textarea,button{
+    padding: 1%;
+    border-radius: 20px;
+    cursor: pointer;
+    border: 1px solid black;
+}
+.bg{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 80%;
+    height: 100vh;
+}

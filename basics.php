@@ -71,11 +71,21 @@ echo("<h1>$v1</h1>");
 echo('<br>');
 $v1--;
 echo($v1);
-//it also has 
+//it also has preincrement conditions suchs as ++$v1; and $v--
 
       
         
         //logical op
+
+        //and(&&) //or(||) //xor(xor) // not!
+
+        $myvar=true;
+        $myname=false;
+        echo var_dump($myvar&&true);
+
+        //in and op both the values should be true then only it pasess the function;
+        //in or(|| )op one of the condtion if one of the condition is true then only the condition can be true;
+        // 
 
 
         
